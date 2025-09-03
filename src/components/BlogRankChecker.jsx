@@ -12,7 +12,8 @@ const BulkKeywordLinkChecker = () => {
   const [loading, setLoading] = useState(false);
   const [progress, setProgress] = useState(0);
 
-  const API_KEY = import.meta.env.REACT_APP_API_KEY;
+  const API_KEY = import.meta.env.VITE_API_KEY;
+
 
   const handleBulkCheck = async () => {
     setLoading(true);
